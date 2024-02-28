@@ -19,7 +19,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild"
+    "build": "unbuild",
+    "postinstall": "pnpm build"
   },
   "dependencies": {
     "@julr/unocss-preset-heropatterns": "^1.0.2",
